@@ -1,6 +1,6 @@
 # Firefox YouTube Saver
 
-This is a Firefox extension that allows you to save YouTube videos to a watchlist.
+This is a Firefox extension that allows you to save YouTube videos to a easily accessible browser popup watchlist.
 
 ## Features
 
