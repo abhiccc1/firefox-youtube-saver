@@ -1,0 +1,14 @@
+{
+    "extensionName": {
+      "message": "YouTube Saver Plugin",
+      "description": "The name of the extension."
+    },
+    "extensionDescription": {
+      "message": "Save YouTube videos for later viewing.",
+      "description": "A longer description of the extension."
+    },
+    "browserActionTitle": {
+      "message": "Save this YouTube video",
+      "description": "Tooltip for the browser action button."
+    }
+  }

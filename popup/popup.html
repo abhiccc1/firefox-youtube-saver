@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h1>YouTube Saver</h1>
+  </div>
+  
+  <button id="add-video" class="add-button">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+      <!-- Circle background -->
+      <circle cx="12" cy="12" r="10" fill="white"/>
+      
+      <!-- Plus symbol with rounded ends -->
+      <path d="M12 7c0.552 0 1 0.448 1 1v3h3c0.552 0 1 0.448 1 1s-0.448 1-1 1h-3v3c0 0.552-0.448 1-1 1s-1-0.448-1-1v-3H8c-0.552 0-1-0.448-1-1s0.448-1 1-1h3V8c0-0.552 0.448-1 1-1z" fill="#ff0000"/>
+    </svg>
+    Add Current Video
+  </button>
+  
+  <div id="no-videos" class="no-videos">
+    No saved videos yet. Browse YouTube and click the "Add Current Video" button to save videos.
+  </div>
+  
+  <div id="saved-videos" class="saved-videos">
+    <!-- Videos will be added here dynamically -->
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
